@@ -1,0 +1,82 @@
+<html>
+<head>
+<style>
+#outer
+{
+height:400px;
+width:500px;
+background:green;
+margin:100px auto;
+box-shadow:10px 5px red;
+}
+#left
+{
+height:400px;
+width:550px;
+background:red;
+float:left;
+color:aqua;
+font-size:22px;
+padding:50px;
+box-sizing:border-box
+text-align:justify;
+}
+.txt
+{
+height:65px;
+width:100%;
+background:#c0c0c0;
+margin-bottom:30px;
+border:none;
+padding-left:30px;
+box-sizing:border-box;
+float:left;
+}
+::placeholder
+{
+font-size:22px;
+color:marron
+}
+.btn
+{
+width:100%;
+height:65px;
+background:orange;
+border:none;
+font-size:24px;
+color:white;
+border-radius:8px;
+float:left;
+}
+.btn:hover
+{
+background:black;
+transition:all ease 1s;
+}
+#right
+{
+height:400px;
+width:50px;
+//background:blue;
+float:left;
+}
+</style>
+</head>
+<body>
+<div id="outer">
+<div id="left">
+ACCOUNT LOGIN
+
+</br>
+<p>
+<input type="text" placeholder="Username" class="txt"/></p>
+</br>
+<input type="password" placeholder="Password" class="txt"/>
+<br/>
+<input type="submit" class="btn" value="LOG IN"/>
+<br/>
+</div>
+<div id="right"></div>
+</div>
+</body>
+</html>
